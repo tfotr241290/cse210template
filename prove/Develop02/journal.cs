@@ -12,7 +12,7 @@ public class Journal{
         Console.WriteLine("4. Save");
         Console.WriteLine("5. Quit");
         
-        Console.WriteLine("What would you like to do? ");
+        Console.Write("What would you like to do? ");
 
     }
 

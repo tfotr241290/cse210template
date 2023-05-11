@@ -18,7 +18,7 @@ public class Entry{
     }
 
     public void SaveToFile(string filename){
-        string path = $"./prove/Develop02/{filename}";
+        string path = $"{filename}";
         using (StreamWriter sw = File.CreateText(path)){
             foreach(string l in _entryList){
                 sw.WriteLine(l);
