@@ -7,8 +7,8 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Welcome to the journal Program!");
-        Journal myChoice = new Journal();
-        Entry myEntry = new Entry();
+        Entry myChoice = new Entry();
+        Journal myEntry = new Journal();
         PromptGenerator myPrompts = new PromptGenerator();
         myPrompts._prompts.Add("If I had one thing I could do over today, what would it be?");
         myPrompts._prompts.Add("What are you planning to do this weekend?");
