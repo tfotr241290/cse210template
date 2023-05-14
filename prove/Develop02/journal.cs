@@ -32,6 +32,5 @@ public class Journal{
             Console.WriteLine("\t" + line);
         }
     }
-
     
 }
