@@ -16,7 +16,7 @@ class Scripture{
     public Scripture(string textReference, string textScripture){
 
         _reference = new Reference(textReference);
-        _words = SplitIntoWords(textScripture);
+        _words = SplitWords(textScripture);
         _hiddenWords = new List<Word>();
     }
 
@@ -55,7 +55,7 @@ class Scripture{
     }
 
 
-    private List<Word> SplitIntoWords(string text){
+    private List<Word> SplitWords(string text){
         
         string[] stringWords = text.Split(' ');
         List<Word> wordList = new List<Word>();
